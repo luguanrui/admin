@@ -1,0 +1,29 @@
+.login-wrapper {
+  position: absolute;
+  background-color: #022243;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-content {
+  width: 500px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  width: 300px;
+  margin: 20px 0;
+}
+
+.el-button--primary {
+  width: 100%;
+}
