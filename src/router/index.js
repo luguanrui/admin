@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import Router from 'vue-router'
-import {lazyLoadPage} from '@/utils/common'
+import { lazyLoadPage } from '@/utils/common'
 
 Vue.use(Router)
 
@@ -10,6 +10,11 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: lazyLoadPage('login/index')
+    },
+    {
+      path: '/index',
+      name: 'index',
+      component: lazyLoadPage('index/index')
     },
     {
       path: '/personal-center',
