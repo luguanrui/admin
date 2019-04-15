@@ -1,10 +1,9 @@
 import vHeader from '@/components/header/index.vue'
 import vAside from '@/components/aside/index.vue'
-import vMain from '@/components/main/index.vue'
 import vFooter from '@/components/footer/index.vue'
 
 export default {
-  components: {vHeader, vAside, vMain, vFooter},
+  components: {vHeader, vAside, vFooter},
   props: {},
   data() {
     return {}

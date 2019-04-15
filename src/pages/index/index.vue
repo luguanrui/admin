@@ -9,7 +9,7 @@
           <v-aside></v-aside>
         </el-aside>
         <el-main>
-          <v-main></v-main>
+          <router-view/>
         </el-main>
       </el-container>
       <el-footer>

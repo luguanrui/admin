@@ -16,7 +16,9 @@ import {
   MenuItem,
   MenuItemGroup,
   Submenu,
-  Tooltip
+  Tooltip,
+  Breadcrumb,
+  BreadcrumbItem
 } from 'element-ui'
 
 Vue.use(Button)
@@ -35,6 +37,8 @@ Vue.use(MenuItem)
 Vue.use(MenuItemGroup)
 Vue.use(Submenu)
 Vue.use(Tooltip)
+Vue.use(Breadcrumb)
+Vue.use(BreadcrumbItem)
 
 Vue.prototype.$message = Message
 console.log(Vue.prototype.$message)
